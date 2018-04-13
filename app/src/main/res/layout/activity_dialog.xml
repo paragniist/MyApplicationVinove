@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/uiBackgroundDark"
+    tools:context=".Activities.CalenderActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/uiBackgroundLight"
+        android:gravity="center"
+        android:onClick="custom"
+        android:padding="@dimen/default_margin_half"
+        android:text="@string/custom_dialog"
+        android:textColor="@color/whiteColor" />
+
+
+    <Button
+        android:id="@+id/release_shift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin_50"
+        android:layout_marginRight="@dimen/default_margin_50"
+        android:background="@color/uiBackgroundLight"
+        android:gravity="center"
+        android:padding="@dimen/default_margin_half"
+        android:text="@string/release_shift"
+        android:textColor="@color/whiteColor" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/default_margin_70"
+        android:layout_marginLeft="@dimen/default_margin_50"
+        android:layout_marginRight="@dimen/default_margin_50"
+        android:background="@color/uiBackgroundLight"
+        android:gravity="center"
+        android:padding="@dimen/default_margin_half"
+        android:text="@string/call_manager"
+        android:onClick="callManager"
+        android:textColor="@color/whiteColor" />
+
+
+</RelativeLayout>

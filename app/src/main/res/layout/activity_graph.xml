@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin_200"
+            android:layout_weight=".5"
+            android:background="@color/purpleShade2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:orientation="vertical">
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/graphViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/graphTabLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_margin_30"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_margin_110"
+                android:background="@color/purpleShade2"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/whiteColor"
+                app:tabTextAppearance="@style/TabTextAppearance"
+                app:tabTextColor="@color/tabLayoutTextColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin_200"
+            android:layout_weight=".5"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_100"
+                android:orientation="vertical"
+                android:padding="@dimen/default_margin_extra_large">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/default_margin_25"
+                    android:layout_marginStart="@dimen/default_margin_25"
+                    android:gravity="start"
+                    android:text="@string/previous_paystubs"
+                    android:textColor="@color/greyTextShade3"
+                    android:textSize="@dimen/default_fontSize_16"
+                    android:textStyle="bold" />
+
+
+                <android.support.v7.widget.RecyclerView
+
+                    android:id="@+id/graphRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin_25">
+
+
+                </android.support.v7.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/default_margin_30"
+        android:layout_marginRight="@dimen/default_margin_30"
+        android:background="@drawable/roundbutton"
+        android:elevation="@dimen/default_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/default_margin_extra_large">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="@string/current_wallet"
+                android:textColor="@color/greyTextShade3"
+                android:textSize="@dimen/default_fontSize_14"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin"
+
+                    android:layout_weight="0.7"
+                    android:gravity="start"
+                    android:text="@string/your_earnings_since_your_last_withdrawal"
+                    android:textColor="@color/greyTextShade4"
+                    android:textSize="@dimen/default_fontSize_16" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_weight="0.3"
+                    android:gravity="right"
+                    android:text="@string/_2_370"
+                    android:textColor="#454E57"
+                    android:textSize="@dimen/default_fontSize_22" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="@color/purpleShade2"
+                android:text="@string/tranfer_to_bank"
+                android:textAllCaps="false"
+                android:textColor="@color/whiteColor"
+                android:textSize="@dimen/default_fontSize_16" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/default_margin"
+                android:gravity="start"
+                android:text="@string/we_will_automatically_tranfer_the_final_amount_at_the_end_of_the_week"
+                android:textColor="@color/greyTextShade4"
+                android:textSize="@dimen/default_fontSize_14" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

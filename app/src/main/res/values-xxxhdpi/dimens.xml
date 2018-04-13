@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--Text dimens-->
+    <dimen name="default_fontSize_10">16sp</dimen>
+    <dimen name="default_fontSize_12">18sp</dimen>
+    <dimen name="default_fontSize_14">20sp</dimen>
+    <dimen name="default_fontSize_15">21sp</dimen>
+    <dimen name="default_fontSize_16">22sp</dimen>
+    <dimen name="normal_text_large">24sp</dimen>
+    <dimen name="default_fontSize_20">26sp</dimen>
+    <dimen name="default_fontSize_22">28sp</dimen>
+    <dimen name="default_fontSize_30">36sp</dimen>
+</resources>

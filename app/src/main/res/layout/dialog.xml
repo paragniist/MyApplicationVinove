@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/close"
+            android:textColor="@color/custom_dialog_right_textViewColor"
+            android:textSize="@dimen/default_margin_large" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/close"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout_id"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightPurple"
+            android:orientation="vertical"
+            android:padding="@dimen/default_margin_extra_large">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jan_8_wed"
+                android:textColor="@color/textColorOne"
+                android:textSize="@dimen/default_fontSize_16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_shift"
+                android:textColor="@color/whiteColor"
+                android:textSize="@dimen/default_fontSize_22"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purpleDark"
+            android:orientation="vertical"
+            android:padding="@dimen/default_margin_extra_large">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:text="@string/time"
+                    android:textColor="@color/purpleTextShade1"
+                    android:textSize="@dimen/default_fontSize_15"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:gravity="right"
+                    android:text="@string/_11am_5pm"
+                    android:textColor="@color/custom_dialog_right_textViewColor"
+                    android:textSize="@dimen/normal_text_large" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/default_margin_1"
+                android:background="@color/horizontalLineColor"
+                android:padding="@dimen/default_margin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:layout_marginTop="@dimen/default_margin_extra_large"
+                    android:text="@string/role"
+                    android:textColor="@color/custom_dialog_left_textViewColor"
+                    android:textSize="@dimen/default_fontSize_15"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:layout_marginTop="@dimen/default_margin_extra_large"
+                    android:gravity="right"
+                    android:text="@string/cashier"
+                    android:textColor="@color/custom_dialog_right_textViewColor"
+                    android:textSize="@dimen/normal_text_large" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/default_margin_1"
+                android:background="@color/horizontalLineColor"
+                android:padding="@dimen/default_margin" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:layout_marginTop="@dimen/default_margin_extra_large"
+                    android:text="@string/expected_earning"
+                    android:textColor="@color/purpleTextShade1"
+                    android:textSize="@dimen/default_fontSize_15"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:layout_marginTop="@dimen/default_margin_extra_large"
+                    android:gravity="right"
+                    android:text="@string/_215_12"
+                    android:textColor="@color/custom_dialog_right_textViewColor"
+                    android:textSize="@dimen/normal_text_large" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/default_margin_1"
+                android:background="@color/horizontalLineColor"
+                android:padding="@dimen/default_margin" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:layout_marginTop="@dimen/default_margin_extra_large"
+                    android:layout_weight=".5"
+                    android:text="@string/location"
+                    android:textColor="@color/custom_dialog_left_textViewColor"
+                    android:textSize="@dimen/default_fontSize_15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginBottom="@dimen/default_margin_extra_large"
+                    android:layout_marginTop="@dimen/default_margin_extra_large"
+                    android:layout_weight=".5"
+                    android:gravity="right|center"
+                    android:text="@string/_219_brannan_st_san_francisco_ca_94107"
+                    android:textColor="@color/custom_dialog_right_textViewColor"
+                    android:textSize="@dimen/default_fontSize_16"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/lightPurple"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_margin"
+            >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginEnd="@dimen/default_margin_35"
+                android:layout_marginRight="@dimen/default_margin_35"
+                android:src="@drawable/add_cal"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginEnd="@dimen/default_margin_35"
+                android:layout_marginRight="@dimen/default_margin_35"
+                android:src="@drawable/noun_navigator_889278" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#5756F6</color>
+    <color name="uiBackgroundDark">#303030</color>
+    <color name="uiBackgroundLight">#3E3E3E</color>
+    <color name="lightPurple">#5756F6</color>
+    <color name="purpleDark">#4D4BD6</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="textColorOne">#9FA5F9</color>
+    <color name="colorRaisedButton">#5756F6</color>
+    <color name="colorRaisedButtonText">#FFFFFF</color>
+    <color name="textColor">#404040</color>
+    <color name="custom_dialog_right_textViewColor">#D3D7F5</color>
+    <color name="horizontalLineColor">#B3B3B3</color>
+    <color name="custom_dialog_left_textViewColor">#898EE5</color>
+    <color name="grey">#5F5F5F</color>
+    <color name="tabLayoutTextColor">#AEAEAE</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="profile_fragment_leftTextColor">#313B45</color>
+    <color name="purpleShade1">#4161F7</color>
+    <color name="greyTextShade1">#767D84</color>
+    <color name="greyTextShade2">#515962</color>
+    <color name="purpleShade2">#516AE4</color>
+    <color name="greyTextShade3">#848B91</color>
+    <color name="greyTextShade4">#A4A8AD</color>
+    <color name="greyTextShade5">#4A535B</color>
+    <color name="greyTextShade6">#8F949A</color>
+    <color name="greyTextShade7">#3A414B</color>
+    <color name="blackText">#000000</color>
+    <color name="purpleTextShade1">#898EE5</color>
+    <color name="yellowColor">#F3B210</color>
+    <color name="greyTextShade8">#ACB0B4</color>
+</resources>

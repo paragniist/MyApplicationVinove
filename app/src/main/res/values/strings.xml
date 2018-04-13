@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">MyApplication_Vinove</string>
+    <string name="badges">Badges</string>
+    <string name="calender">Calender</string>
+    <string name="scheduled_shifts">Scheduled Shifts</string>
+    <string name="you_have_no_shift_for_this_week">You have no shift for this week</string>
+    <string name="make_sure_you_have_your_time_preferences_set_up_so_you_are_eligible_for_shifts">Make sure you have your time preferences set up so you are eligible for shifts</string>
+    <string name="set_up_your_preferences">Set up your preferences</string>
+    <string name="recommended_shifts">Recommended Shifts</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="release_shift">RELEASE SHIFT</string>
+    <string name="call_manager">CALL MANAGER</string>
+    <string name="current_wallet">Current Wallet</string>
+    <string name="your_earnings_since_your_last_withdrawal">Your earnings since your last withdrawal</string>
+    <string name="_2_370">$2,370</string>
+    <string name="tranfer_to_bank">Tranfer to bank</string>
+    <string name="we_will_automatically_tranfer_the_final_amount_at_the_end_of_the_week">We will automatically tranfer the final amount at the end of the week</string>
+    <string name="view_video">View Video</string>
+    <string name="hey_arjun_we_have_a_discount_on_large_pizza_s_today_please_view_ths_video_before_starting_your_shift">Hey Arjun! We have a discount on large pizza\'s today. Please view ths video before starting your shift.</string>
+    <string name="top_performer">Top Performer</string>
+    <string name="lorem_ipsum_dolor_sit_consectetur_adipiscing">Lorem ipsum dolor sit consectetur adipiscing</string>
+    <string name="broadcast_from_arjun">Broadcast from Arjun</string>
+    <string name="_1_day_ago">1 day ago</string>
+    <string name="sorry_team_but_we_are_closed_today_there_was_a_leak_in_one_of_the_pipes_i_have_updated_all_the_schedules">Sorry team but we are closed today. There was a leak in one of the pipes. I have updated all the schedules</string>
+    <string name="days_of_2nd_recycler_view">Days of 2nd recycler view</string>
+    <string name="_11am_5pm">11am - 5pm</string>
+    <string name="week_days">Week days</string>
+    <string name="time">Time</string>
+    <string name="role">Role</string>
+    <string name="cashier">Cashier</string>
+    <string name="expected_earning">Expected Earning</string>
+    <string name="_215_12">$215.12</string>
+    <string name="location">Location</string>
+    <string name="_219_brannan_st_san_francisco_ca_94107">219 Brannan St San Francisco CA 94107</string>
+    <string name="phone">phone</string>
+    <string name="processing">processing</string>
+    <string name="edit_personal_info">Edit Personal Info</string>
+    <string name="dob">DOB:</string>
+    <string name="_4_5_1989">4/5/1989</string>
+    <string name="_310714655">310714655</string>
+    <string name="address">Address:</string>
+    <string name="_1342_mcallister_san_francisco_ca_94115">1342 McAllister San Francisco CA 94115</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="bank_of_america_debit">Bank of America Debit</string>
+    <string name="delete">Delete</string>
+    <string name="account">Account</string>
+    <string name="_1132">****1132</string>
+    <string name="edit_payment_settings">Edit Payment Settings</string>
+    <string name="time_preferences">Time Preferences</string>
+    <string name="make_sure_you_have_your_time_preferences_set_up_so_you_are_eligible_for_shirts">Make sure you have your time preferences set up so you are eligible for shirts</string>
+    <string name="manage">Manage</string>
+    <string name="time_off">Time off</string>
+    <string name="approved">Approved:</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_date">Start Date:</string>
+    <string name="jan_11_2018">Jan 11,2018</string>
+    <string name="end_date">End Date:</string>
+    <string name="jan_13_2018">Jan 13,2018</string>
+    <string name="request_new">Request New</string>
+    <string name="good_show_up_rate_keep_it_up">Good show up rate. Keep it up!</string>
+    <string name="below_are_your_badges_collected_over_your_tenure">Below are your badges collected over your tenure</string>
+    <string name="show_all_badges">Show all badges</string>
+    <string name="previous_paystubs">Previous Paystubs</string>
+    <string name="close">close</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="my_shift">My Shift</string>
+    <string name="jan_8_wed">Jan 8, Wed</string>
+
+
+    <string-array name="calender">
+        <item>Week</item>
+        <item>Month</item>
+        <item>year</item>
+
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/default_margin_2"
+    android:layout_marginRight="@dimen/default_margin_2"
+    android:background="@android:color/transparent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_margin_2">
+
+        <TextView
+            android:id="@+id/tvCalender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:gravity="center"
+            android:padding="@dimen/default_margin"
+            android:text="@string/week_days"
+            android:textColor="@color/blackText" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
